@@ -10,6 +10,7 @@ int main(){
             std:: cout << i << " ";
         }
     }
+    // 1 3 5 7 9 11 ....
     return 0;
 
 }

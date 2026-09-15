@@ -1,24 +1,23 @@
 #include <iostream>
 int main(){
     std::setlocale(LC_ALL, ".UTF8");
-    int a, b, d, next, m;
+    int a, b, d, next;
     std::cout << "Введите первый член арифметической прогрессии: ";
     std::cin >> a;
     std::cout << "Введите разность арифметической прогрессии: ";
     std::cin >> d;
     std::cout << "Введите диапазон арифметической прогресии: ";
     std::cin >> b;
-    m=b/d-1;
-    for(int i=0; i<=m; i++){
-        std::cout << a << " ";
-        next=a+d;
-        if(next<b){
-            a=next;
+
+    next = a;
+    while(next<=b){
+        if(next%3==0){
+            std::cout << next << " ";
         }
-        else{
-            std::cout << "";
-        }
+        next += d;
     }
+    
+    
 
     return 0;
 
