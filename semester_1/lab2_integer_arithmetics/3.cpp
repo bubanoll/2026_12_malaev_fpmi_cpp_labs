@@ -12,7 +12,7 @@ int main() {
     next_number=number;
     while(next_number>0){
         cifra=next_number%10;
-        if(cifra<min || cifra!=0){
+        if(cifra<min && cifra!=0){
             min=cifra;
         }
         next_number/=10;

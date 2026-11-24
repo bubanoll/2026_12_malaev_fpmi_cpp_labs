@@ -1,0 +1,23 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="2.exe">
+    <BuildType Project="Release" />
+    <Platform Project="x64" />
+    <Properties Name="DebuggerProjectSystem">
+      <Property Name="AttachLaunchAction" Value="No" />
+      <Property Name="Environment" Value="По умолчанию" />
+      <Property Name="Executable" Value="D:\ОИМП\2026_12_malaev_fpmi_cpp_labs\semester_1\lab2_integer_arithmetics\2.exe" />
+      <Property Name="IORedirection" Value="Auto" />
+      <Property Name="LaunchingEngine" Value="00000000-0000-0000-0000-000000000000" />
+      <Property Name="LaunchSQLEngine" Value="No" />
+      <Property Name="PortSupplier" Value="00000000-0000-0000-0000-000000000000" />
+      <Property Name="RemoteMachine" Value="BUBANOLL" />
+      <Property Name="StartingDirectory" Value="D:\ОИМП\2026_12_malaev_fpmi_cpp_labs\semester_1\lab2_integer_arithmetics" />
+      <Property Name="UseLegacyDebugEngines" Value="No" />
+    </Properties>
+  </Project>
+  <Project Path="my-Test2/my-Test2.vcxproj" />
+</Solution>
